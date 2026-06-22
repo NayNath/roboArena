@@ -7,8 +7,8 @@
     padding: 0px;
 }
 body{
-    /*background-color: #121212;*/
-    background-color: #ee3437;
+    background-color: #121212;
+    /*background-color: #ee3437;*/
     color: white;
 }
 header{
@@ -82,6 +82,7 @@ div.botoes-banner{
     display: flex;
     flex-direction:row;
     margin: 30px 0px 50px;
+    flex-wrap: wrap;
 }
 div.botao-banner{
     padding-right: 50px;
@@ -99,15 +100,66 @@ input.edicoes{
     color: #f9f9f9;
 }
 
+/*--------------ESTATISTICAS--------------ESTATISTICAS--------------ESTATISTICAS--------------*/
 
+hr.esquerda{
+    margin-top: 65px;
+    margin-bottom: 65px;
+    width: 700px;
+    color: #f9f9f9;
+}
+hr.direita{
+    margin-top: 65px;
+    width: 700px;
+    color: #f9f9f9;
+    display: block;
+    float: right;
+}
+section.conteiner-estatisticas{
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+div.estatisticas{
+    padding: 10px;
+}
+div.numeros{
+    display: flex;
+    align-items: center;
+
+}
+
+img.numeros{
+    filter: invert(100%);
+    padding-right: 20px;
+    height: 80px;
+    margin-bottom: 10px;
+}
 
 footer{
     display: flex;
     justify-content: center;
     width: auto;
     background-color: #050505;
+    position: fixed;
+    bottom: 0;
+    
 }
 p.rodape{
     padding: 20px;
     font-size: 10px;
+}
+
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 35px;
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 25px;
 }
