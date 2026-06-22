@@ -49,8 +49,7 @@ img.usuario{
     filter: invert(100%);
 }
 
-main{
-   height: 900px; 
+main{ 
    margin: 0px 50px;
 }
 
