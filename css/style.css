@@ -16,10 +16,12 @@ header{
     height: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 img{
     height: 90px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 nav{
     display: inline-block;
@@ -210,6 +212,7 @@ div.cad-eventos{
     align-items: center;
     padding: 30px;
     margin: 30px 30px;
+    flex-wrap: wrap;
 }
 div.data-evento{
     border: #03abf0 solid 2px;
@@ -235,8 +238,11 @@ input.botao-saiba-mais{
     margin: 0px 60px;
 }
 
-/*--------------EVENTOS--------------EVENTOS--------------EVENTOS--------------*/
-/*--------------EVENTOS--------------EVENTOS--------------EVENTOS--------------*/
+/*--------------CATEGORIAS BATELHAS--------------CATEGORIAS BATELHAS--------------CATEGORIAS BATELHAS--------------*/
+section.conteiner-batalhas{
+    margin-top: 100px;
+}
+
 
 /*--------------FOOTER--------------FOOTER--------------FOOTER--------------*/
 footer{
