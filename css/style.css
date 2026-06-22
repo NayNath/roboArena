@@ -2,14 +2,14 @@
     font-family:badGrunge;
     src: url("../bad_grunge/badGrunge.ttf");
 }
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Faculty+Glyphic&family=Honk:MORF@15&family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=Kalnia+Glaze:wght@100..700&family=Nabla&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+ZA:wght@100..400&family=Poiret+One&family=Rubik+Microbe&display=swap');
 *{
     margin: 0px;
     padding: 0px;
 }
 body{
     background-color: #121212;
-    /*background-color: #ee3437;*/
-    color: white;
+    color: white;font-family: "Poiret One", sans-serif;
 }
 header{
     background-color: #050505;
@@ -115,6 +115,11 @@ hr.direita{
     display: block;
     float: right;
 }
+hr.inteira{
+    margin-top: 200px;
+    color: #f9f9f9;
+    display: block;
+}
 section.conteiner-estatisticas{
     margin-top: 65px;
     display: flex;
@@ -177,10 +182,63 @@ div.categorias-titulo{
     background-color: #03abf0;
 }
 
+/*--------------EVENTOS--------------EVENTOS--------------EVENTOS--------------*/
+section.conteiner-eventos{
+    margin-top: 80px;
+}
+div.titulo-eventos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+a.ver-todos{
+    color: #03abf0;
+    text-decoration: underline;
+}
+a.ver-todos:hover{
+    color: #51cbfb;
+}
+div.infos-eventos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+div.cad-eventos{
+    border: #03abf0 solid 2px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    margin: 30px 30px;
+}
+div.data-evento{
+    border: #03abf0 solid 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+    padding: 15px;
+}
+div.descricao-evento{
+    padding: 10px;
+}
+p.descricao-evento{
+    padding: 5px;
+}
+input.botao-saiba-mais{
+    background-color: #f9f9f962;
+    padding: 8px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    border:  #f9f9f9 solid 3px;
+    color: #f9f9f9;
+    margin: 0px 60px;
+}
 
+/*--------------EVENTOS--------------EVENTOS--------------EVENTOS--------------*/
+/*--------------EVENTOS--------------EVENTOS--------------EVENTOS--------------*/
 
-
-/*--------------ESTATISTICAS--------------ESTATISTICAS--------------ESTATISTICAS--------------*/
+/*--------------FOOTER--------------FOOTER--------------FOOTER--------------*/
 footer{
     display: flex;
     justify-content: center;
