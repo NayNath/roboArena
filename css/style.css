@@ -96,6 +96,10 @@ input.botao-banner{
     border-radius: 5px;
     border:  #f9f9f9 solid 3px;
 }
+input.botao-banner:hover{
+    background-color:#ee3437;
+    border:  #ee3437 solid 3px;
+}
 input.edicoes{
     border: #f9f9f9 solid 3px;
     background-color: #f9f9f962;
@@ -214,6 +218,10 @@ div.cad-eventos{
     margin: 30px 30px;
     flex-wrap: wrap;
 }
+div.cad-eventos:hover{
+    border: #51cbfb solid 2px;
+    box-shadow: 0px 0px 50px #51cbfb;
+}
 div.data-evento{
     border: #03abf0 solid 2px;
     display: flex;
@@ -237,11 +245,21 @@ input.botao-saiba-mais{
     color: #f9f9f9;
     margin: 0px 60px;
 }
+input.botao-saiba-mais:hover{
+    background-color:#ee3437;
+    border:  #ee3437 solid 3px;
+}
 
 /*--------------CATEGORIAS BATELHAS--------------CATEGORIAS BATELHAS--------------CATEGORIAS BATELHAS--------------*/
 section.conteiner-batalhas{
     margin-top: 100px;
+    margin-bottom: 50px;
 }
+div.titulo-batalhas{
+    display: flex;
+    align-items: center;
+}
+
 div.cads-categorias-batalhas{
     margin-top: 80px;
     display: flex;
@@ -250,9 +268,24 @@ div.cads-categorias-batalhas{
 }
 div.cad-batalhas{
     border: #03abf0 solid 2px;
-    width: 230px;
+    width: 200px;
     height: 200px;
     padding: 15px;
+    margin: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+div.cad-batalhas:hover{
+    border: #51cbfb solid 2px;
+    box-shadow: 0px 0px 50px #51cbfb;
+}
+
+.img-categorias{
+    margin-bottom: 5px;
 }
 
 /*--------------FOOTER--------------FOOTER--------------FOOTER--------------*/
@@ -266,8 +299,6 @@ p.rodape{
     padding: 20px;
     font-size: 10px;
 }
-
-
 
 
 h1{
