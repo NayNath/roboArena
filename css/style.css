@@ -137,20 +137,64 @@ img.numeros{
     height: 80px;
     margin-bottom: 10px;
 }
+/*--------------CATEGORIAS--------------CATEGORIAS--------------CATEGORIAS--------------*/
+section.conteiner-categorias{
+    background-color: #ee3437;
+    margin-top: 200px;
+    height: 270px;
+}
+div.categorias{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 70px;
+}
+.categoria{
+    height: 250px;
+    width: 300px;
+    display: flex;
+    align-items: end;
+    margin: 10px;
+}
+div.batalha{
+    background-image: url("../img/cagoriasBatalhas.png"); 
+    background-repeat: no-repeat;
+}
+div.regulamento{
+    background-image: url("../img/regulamento.png"); 
+    background-repeat: no-repeat;
+}
+div.hall{
+    background-image: url("../img/hallFama.png"); 
+    background-repeat: no-repeat;
+}
+div.noticia{
+    background-image: url("../img/ultimasNoticias.png"); 
+    background-repeat: no-repeat;
+}
+div.categorias-titulo{
+    margin-bottom: 20px;
+    padding: 8px 25px 8px 10px;
+    background-color: #03abf0;
+}
 
+
+
+
+/*--------------ESTATISTICAS--------------ESTATISTICAS--------------ESTATISTICAS--------------*/
 footer{
     display: flex;
     justify-content: center;
     width: auto;
     background-color: #050505;
-    position: fixed;
-    bottom: 0;
-    
 }
 p.rodape{
     padding: 20px;
     font-size: 10px;
 }
+
+
+
 
 h1{
     font-size: 40px;
@@ -163,4 +207,7 @@ h3{
 }
 h4{
     font-size: 25px;
+}
+h5{
+    font-size: 20px;
 }
