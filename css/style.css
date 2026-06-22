@@ -60,6 +60,7 @@ section.conteiner-banner{
     align-items: start;
     flex-direction: column;
     background-image: url("../img/banner.png");
+    background-repeat: no-repeat;
     padding-left: 60px;
 }
 h1.banner-titulo{
@@ -76,7 +77,6 @@ h2.banner-titulo{
     font-size: 50px;
     font-family: badGrunge;
     font-weight: lighter;
-    margin-right: 1100px;
 }
 div.botoes-banner{
     display: flex;
@@ -90,6 +90,7 @@ div.botao-banner{
 input.botao-banner{
     background-color: #f9f9f9;
     padding: 8px 30px;
+    margin-bottom: 50px;
     font-size: 18px;
     border-radius: 5px;
     border:  #f9f9f9 solid 3px;
