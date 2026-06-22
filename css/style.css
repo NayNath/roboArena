@@ -242,7 +242,18 @@ input.botao-saiba-mais{
 section.conteiner-batalhas{
     margin-top: 100px;
 }
-
+div.cads-categorias-batalhas{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+div.cad-batalhas{
+    border: #03abf0 solid 2px;
+    width: 230px;
+    height: 200px;
+    padding: 15px;
+}
 
 /*--------------FOOTER--------------FOOTER--------------FOOTER--------------*/
 footer{
