@@ -19,8 +19,6 @@ header{
     justify-content: space-between;
     top: 0;
     position: sticky;
-
-
 }
 img{
     height: 90px;
@@ -53,6 +51,9 @@ div.usuario{
 img.usuario{
     height: 40px;
     filter: invert(100%);
+}
+img.usuario:hover{
+    filter: invert(16%) sepia(100%) saturate(7481%) hue-rotate(358deg) brightness(96%) contrast(118%);
 }
 
 main{ 
@@ -169,7 +170,7 @@ input.edicoes{
         display: flex;
         align-items: start;
         flex-direction: column;
-        background-image: url("../img/bannerTablet.png");
+        background-image: url("../img/bannerCelular.png");
         background-repeat: no-repeat;
         padding-bottom: 50px;
     }
