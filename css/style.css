@@ -11,6 +11,7 @@ body{
     background-color: #121212;
     color: white;font-family: "Poiret One", sans-serif;
 }
+/*--------------HEADER--------------HEADER--------------HEADER--------------*/
 header{
     background-color: #050505;
     height: 100px;
@@ -401,11 +402,17 @@ section.conteiner-batalhas{
     margin-top: 100px;
     margin-bottom: 50px;
 }
+
 div.titulo-batalhas{
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
-
+hr.linha-batalha{
+    width: 1200px;
+    color: #f9f9f9;
+    
+}
 div.cads-categorias-batalhas{
     margin-top: 80px;
     display: flex;
